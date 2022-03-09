@@ -15,6 +15,8 @@ class Ninja{
     drinkSake = () => {this.health += 10}
 }
 
+module.exports = Ninja;
+
 const Roby = new Ninja("Roby", 100, 10, 10);
 Roby.sayName();
 Roby.showStats(); 
